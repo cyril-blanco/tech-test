@@ -20,6 +20,15 @@ npm install
 npm test
 ```
 
+## Running the service
+
+node src/cli.js <directory> <results count> <report frequency in seconds> <terms>
+
+Example:
+```
+node src/cli.js docs 3 10 "tf idf"
+```
+
 ## Authors
 
 * **Cyril Blanco**
